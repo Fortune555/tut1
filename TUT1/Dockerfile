@@ -6,4 +6,5 @@ RUN apt-get update && \
 
 RUN apt-get install -y samtools bcftools
 
+RUN mkdir -p data
 
